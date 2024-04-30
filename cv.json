@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Nicolás Aldao",
-    "label": "Front End Developer con más de 5 años de experiencia en el rubro IT",
+    "label": "Front End Developer con más de 5 años de experiencia en el rubro IT ",
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "summary": "A lo largo de mi carrera he estado en diferentes tipos de projectos en IT. Actualmente me especializo en el desarrollo frontendcon React. Quiero seguir mejorando mis habilidades técnicas así como también mi inglés.",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
@@ -25,29 +25,51 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "React Developer",
+      "position": "Baufest | Important bank in Argentina",
+      "startDate": "2023-02-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Fix bugs and new features development in mobile application. Create responsive UI. Deploys using Jenkins. Refactor and optimize old code.",
       "highlights": ["Started the company"]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "React Native Developer",
+      "position": "Baufest | Important bank in Jamaica",
+      "startDate": "2022-06-01",
+      "endDate": "2022-12-01",
+      "summary": "Fix bugs and new features development in mobile application. Elaborate unit tests. Fix linting errors. Styled Components",
       "highlights": ["Started the company"]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "C# Developer",
+      "position": "Baufest | Agribusiness from Argentina",
+      "startDate": "2021-01-01",
+      "endDate": "2021-03-01",
+      "summary": "Fix bugs and new features development in application MVC .NET with Razor.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "SQL Server and Backend Development Support",
+      "position": "Baufest | Agribusiness from Argentina | Oct 2020 - Dic 2021",
+      "startDate": "2020-10-01",
+      "endDate": "2021-12-01",
+      "summary": "Fix bugs in application MVC .NET with Razor. Modify and run SQL Scripts.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "BI Tools Support",
+      "position": "Baufest | Retail from Latin América",
+      "startDate": "2019-12-01",
+      "endDate": "2020-09-01",
+      "summary": "Modify and run Powershell Scripts. Modify and run SQL Scripts. Modify, fix and deploy SQL Data Tools (Integration Services).",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Technical Support",
+      "position": "Baufest | Important sportswear brand",
+      "startDate": "2018-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Control data sellout reports. Automatization tasks using Excel and Macros with VBA. Collaborated with clients via email to resolve daily business problems.",
       "highlights": ["Started the company"]
     }
   ],
@@ -64,13 +86,43 @@
   ],
   "education": [
     {
+      "institution": "React Testing Library with Jest / Vitest course",
+      "url": "https://www.udemy.com/certificate/UC-b0a41950-67b7-4524-b16e-64df3097e098",
+      "studyType": "Bachelor",
+      "startDate": null,
+      "endDate": "2024-04-29",
+      "hours": "7.5",
+      "description": "Test-Driven Development. Test behavior instead of implementation",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
       "institution": "Universitat Oberta de Catalunya",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
       "studyType": "Bachelor",
       "startDate": "2003-01-01",
       "endDate": "2009-01-01",
-      "score": "4.0",
+      "hours": "4.0",
+      "description": "",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Universitat Oberta de Catalunya",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "studyType": "Bachelor",
+      "startDate": "2003-01-01",
+      "endDate": "2009-01-01",
+      "hours": "4.0",
+      "description": "",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Universitat Oberta de Catalunya 2",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "studyType": "Bachelor",
+      "startDate": "2003-01-01",
+      "endDate": "2009-01-01",
+      "hours": "4.0",
+      "description": "",
       "courses": ["DB1101 - Basic SQL"]
     }
   ],
@@ -116,16 +168,6 @@
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
-    },
-    {
       "name": "TypeScript",
       "level": "Avanzado",
       "keywords": [
@@ -133,21 +175,6 @@
         "Frontend",
         "Backend",
         "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
       ]
     },
     {
@@ -205,31 +232,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
     {
       "name": "codi.link",
       "isActive": true,

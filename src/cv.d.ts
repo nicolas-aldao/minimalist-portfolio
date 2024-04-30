@@ -88,11 +88,11 @@ interface Publications {
 interface Education {
   institution: string;
   url: string;
-  area: string;
   studyType: string;
   startDate: DateStr;
   endDate: DateStr;
-  score: string;
+  hours: string;
+  description: string;
   courses: Array<string>;
 }
 
