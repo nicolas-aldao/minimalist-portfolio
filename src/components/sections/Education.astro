@@ -4,7 +4,7 @@ import { formatDateToMonthYear } from "../../utils/dateFormat"
 import { education } from "@cv"
 ---
 
-<Section title="Educación y Certificaciones">
+<Section title="Education & Certifications">
   <ul>
     {
       education.map(({ name, institution, url, startDate, endDate, description }) => {
@@ -49,7 +49,6 @@ import { education } from "@cv"
     border-bottom: solid transparent;
   }
   a:hover {
-    margin-bottom: 0px;
     border-bottom: solid;
   }
 
@@ -62,7 +61,6 @@ import { education } from "@cv"
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
   }
 
   time {
