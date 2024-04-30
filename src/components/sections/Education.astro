@@ -1,31 +1,34 @@
 ---
 import Section from "../Section.astro"
-
+import { formatDateToMonthYear } from "../../utils/dateFormat"
 import { education } from "@cv"
 ---
 
 <Section title="Educación y Certificaciones">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = `${startYear} - ${endYear}`
+      education.map(({ name, institution, url, startDate, endDate, description }) => {
+        // estudios formales
+        // const startYear = new Date(startDate).getFullYear()
+        // const endYear =
+        //   endDate != null ? new Date(endDate).getFullYear() : "Actual"
+        // const years = `${startYear} - ${endYear}`
+        let years;
+        if (endDate) years = formatDateToMonthYear(endDate);
 
         return (
           <li>
             <article>
               <header>
-                <div>
-                  <h3>{institution}</h3>
-                </div>
+                <a href={url}>
+                  <h3>{name} - {institution}</h3>
+                </a>
 
                 <time>{years}</time>
               </header>
 
               <footer>
-                <p>{area}</p>
+                <p>{description}</p>
               </footer>
             </article>
           </li>
@@ -40,6 +43,14 @@ import { education } from "@cv"
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+
+  a {
+    border-bottom: solid transparent;
+  }
+  a:hover {
+    margin-bottom: 0px;
+    border-bottom: solid;
   }
 
   article h3 {

@@ -86,7 +86,8 @@
   ],
   "education": [
     {
-      "institution": "React Testing Library with Jest / Vitest course",
+      "name": "React Testing Library with Jest / Vitest course",
+      "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-b0a41950-67b7-4524-b16e-64df3097e098",
       "studyType": "Bachelor",
       "startDate": null,
@@ -96,33 +97,47 @@
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
+      "name": "Solid and Clean Code principles course",
+      "institution": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.comhttps://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "hours": "4.0",
-      "description": "",
+      "startDate": null,
+      "endDate": "2024-04-08",
+      "hours": "6.5",
+      "description": "Tech Debt. Code Smells. SOLID Principles. Good practices",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
+      "name": "The complete React Native + Hooks course",
+      "institution": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-ed2a871a-d3b1-4d18-9d2c-dc348cf96dd5",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "hours": "4.0",
-      "description": "",
+      "startDate": null,
+      "endDate": "2023-01-01",
+      "hours": "22",
+      "description": "State Management with Context. In-App Authentication. Json Web Token",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "institution": "Universitat Oberta de Catalunya 2",
-      "url": "https://www.uoc.edu/portal/es/index.html",
+      "name": "React Native Intensive couse",
+      "institution": "Baufest",
+      "url": "https://baufest.com",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
+      "startDate": "2022-11-01",
+      "endDate": "2022-12-01",
       "hours": "4.0",
-      "description": "",
+      "description": "React Intensive Training emulating a real project, building a digital wallet MVP in React to send and receive money. Consuming API's. Form validations.",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "name": "React Courses (various)",
+      "institution": "Platzi",
+      "url": "https://platzi.com/p/NicolasAldao",
+      "studyType": "Bachelor",
+      "startDate": null,
+      "endDate": "2022-01-01",
+      "hours": "16",
+      "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's",
       "courses": ["DB1101 - Basic SQL"]
     }
   ],
@@ -193,6 +208,21 @@
       ]
     },
     {
+      "name": "Postman",
+      "level": "Básico",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "Básico",
+      "keywords": ["Deploy"]
+    },
+    {
+      "name": "Swagger",
+      "level": "Básico",
+      "keywords": []
+    },
+    {
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
@@ -216,7 +246,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "B2"
     }
   ],
   "interests": [
@@ -233,26 +263,28 @@
   ],
   "projects": [
     {
-      "name": "codi.link",
+      "name": "Digital Wallet",
       "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "description": "A digital wallet where you can send and receive money from other users. You can see your money movements too!",
+      "highlights": ["React", "Node", "MongooDB", "NextUI"],
+      "url": "https://digital-wallet-one.vercel.app",
+      "github": "https://github.com/nicolas-aldao/digital-wallet"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Artgram",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "description": "It's an app based in Instagram's style where you can browse through different art paintings. Note: You can use the demo account: user: demo pass: demo",
+      "highlights": ["HTML", "CSS", "React", "Node", "MongooDB"],
+      "url": "https://nagram.vercel.app",
+      "github": "https://github.com/nicolas-aldao/instagram-clone"
     },
     {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
-      "url": "https://miduconf.com"
+      "name": "Grid Layout Concept Art: Beatles",
+      "isActive": true,
+      "description": "This is a concept art for a grid layout. I used to The Beatles as an example.",
+      "highlights": ["HTML", "CSS", "Grid Layout"],
+      "url": "https://nicolas-aldao.github.io/grid-layout-concept-art",
+      "github": "https://github.com/nicolas-aldao/grid-layout-concept-art"
     }
   ]
 }
