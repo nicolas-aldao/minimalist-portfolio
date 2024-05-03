@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Nicolás Aldao",
-    "label": "Front End Developer con más de 5 años de experiencia en el rubro IT ",
+    "label": "Frontend Developer with 5 years of experience in IT from Argentina",
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "A lo largo de mi carrera he estado en diferentes tipos de projectos en IT. Actualmente me especializo en el desarrollo frontendcon React. Quiero seguir mejorando mis habilidades técnicas así como también mi inglés.",
+    "summary": "Throughout my career I've been in different kinds of IT projects. At the moment, I'm focusing on frontend development in React. I want to keep improving my technical skills as well as my English.",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
@@ -34,7 +34,7 @@
       "position": "Baufest | Important bank in Argentina",
       "startDate": "2023-02-01",
       "endDate": null,
-      "summary": "Fix bugs and new features development in mobile application. Create responsive UI. Deploys using Jenkins. Refactor and optimize old code.",
+      "summary": "Fix bugs and new features development in mobile application. Create responsive UI. Deploys with Jenkins. Refactor and optimize old code.",
       "highlights": ["Started the company"]
     },
     {
@@ -74,7 +74,7 @@
       "position": "Baufest | Important sportswear brand",
       "startDate": "2018-01-01",
       "endDate": "2019-01-01",
-      "summary": "Control data sellout reports. Automatization tasks using Excel and Macros with VBA. Collaborated with clients via email to resolve daily business problems.",
+      "summary": "Control data sellout reports. Automated tasks using Excel and VBA macros. Collaborated with clients via email to resolve daily business problems.",
       "highlights": ["Started the company"]
     }
   ],
