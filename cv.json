@@ -95,6 +95,7 @@
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-b0a41950-67b7-4524-b16e-64df3097e098",
       "studyType": "Bachelor",
+      "isLongStudy": false,
       "startDate": null,
       "endDate": "2024-04-29",
       "hours": "7.5",
@@ -106,6 +107,7 @@
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.comhttps://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
       "studyType": "Bachelor",
+      "isLongStudy": false,
       "startDate": null,
       "endDate": "2024-04-08",
       "hours": "6.5",
@@ -117,6 +119,7 @@
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-ed2a871a-d3b1-4d18-9d2c-dc348cf96dd5",
       "studyType": "Bachelor",
+      "isLongStudy": false,
       "startDate": null,
       "endDate": "2023-01-01",
       "hours": "22",
@@ -128,6 +131,7 @@
       "institution": "Baufest",
       "url": "https://baufest.com",
       "studyType": "Bachelor",
+      "isLongStudy": false,
       "startDate": "2022-11-01",
       "endDate": "2022-12-01",
       "hours": "4.0",
@@ -139,10 +143,23 @@
       "institution": "Platzi",
       "url": "https://platzi.com/p/NicolasAldao",
       "studyType": "Bachelor",
+      "isLongStudy": false,
       "startDate": null,
       "endDate": "2022-01-01",
       "hours": "16",
       "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "name": "System Analist Career",
+      "institution": "Instituto Santo Tomás de Aquino",
+      "url": "https://platzi.com/p/NicolasAldao",
+      "studyType": "Bachelor",
+      "isLongStudy": true,
+      "startDate": "2016-1-1",
+      "endDate": "2020-1-1",
+      "hours": null,
+      "description": "3-year tertiary career at an institute in Argentina. Be able to analize requirements, algoriths and computer systems. Learn and build web pages and desktop applications. Elaborate and apply good practices to relational databases",
       "courses": ["DB1101 - Basic SQL"]
     }
   ],
@@ -152,14 +169,6 @@
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
     }
   ],
   "publications": [

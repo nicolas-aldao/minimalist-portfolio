@@ -4,10 +4,9 @@ export interface CV {
   volunteer: Array<Volunteer>;
   education: Array<Education>;
   awards: Array<Awards>;
-  certificates: Array<Certificates>;
   publications: Array<Publications>;
-  skills: Array<Skills>;
-  languages: Array<Languages>;
+  skills: Array<string>;
+  languages: Array<string>;
   interests: Array<Interests>;
   references: Array<References>;
   projects: Array<Projects>;
@@ -57,24 +56,11 @@ interface Volunteer {
   highlights: Highlight;
 }
 
-interface Skills {
-  name: string;
-  level: string;
-  keywords: Array<string>;
-}
-
 interface Awards {
   title: string;
   date: string;
   awarder: string;
   summary: string;
-}
-
-interface Certificates {
-  name: string;
-  date: DateStr;
-  issuer: string;
-  url: string;
 }
 
 interface Publications {
@@ -89,7 +75,8 @@ interface Education {
   institution: string;
   url: string;
   studyType: string;
-  startDate: DateStr;
+  isLongStudy: true;
+  startDate?: DateStr;
   endDate: DateStr;
   hours: string;
   description: string;
@@ -97,27 +84,9 @@ interface Education {
 }
 
 interface Languages {
-  language: Language;
+  language: string;
   fluency: string;
 }
-
-type Language =
-  | "Spanish"
-  | "English"
-  | "German"
-  | "France"
-  | "Italian"
-  | "Korean"
-  | "Portuguese"
-  | "Chinese"
-  | "Arabic"
-  | "Dutch"
-  | "Finnish"
-  | "Russian"
-  | "Turkish"
-  | "Hindi"
-  | "Bengali"
-  | string;
 
 interface Projects {
   name: string;

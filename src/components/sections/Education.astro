@@ -7,14 +7,18 @@ import { education } from "@cv"
 <Section title="Education & Certifications">
   <ul>
     {
-      education.map(({ name, institution, url, startDate, endDate, description }) => {
-        // estudios formales
-        // const startYear = new Date(startDate).getFullYear()
-        // const endYear =
-        //   endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        // const years = `${startYear} - ${endYear}`
+      education.map(({ name, institution, isLongStudy, url, startDate, endDate, description }) => {
         let years;
-        if (endDate) years = formatDateToMonthYear(endDate);
+        // estudios formales, formato: 2016-2020
+        if (isLongStudy && startDate) {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          years = `${startYear} - ${endYear}`;
+        } else if (endDate) { 
+          // certificaciones, formato de finalización: abr 2024
+          years = formatDateToMonthYear(endDate); 
+        }
 
         return (
           <li>
