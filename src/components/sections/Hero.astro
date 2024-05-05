@@ -1,26 +1,26 @@
 ---
-import { basics } from "@cv"
-import Section from "@/components/Section.astro"
-import Mail from "@/icons/Mail.astro"
-import Platzi from "@/icons/Platzi.astro"
-import LinkedIn from "@/icons/LinkedIn.astro"
-import GitHub from "@/icons/GitHub.astro"
-import WorldMap from "@/icons/WorldMap.astro"
-import type { SocialIcon } from "@/types"
+import { basics } from "@cv";
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import Platzi from "@/icons/Platzi.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, email } = basics
-const { city, region } = location
+const { name, label, image, location, profiles, email } = basics;
+const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
-  Platzi
-}
+  Platzi,
+};
 
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const linkedUrl = linkedInfo?.url
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
 
-const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -32,36 +32,32 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="print">
+      <!-- <footer class="print">
         {printInfo}
-      </footer>
-      <footer class="no-print">
+      </footer> -->
+      <footer style={{ display: "block"}}>
         {
           email && (
-            <a
-              href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Mail />
-            </a>
+            <div style={{ display: "inline" }}>
+              <a href={`mailto:${email}`}>
+                <Mail />
+              </a>
+              <p style={{ display: "inline", position: "relative", bottom: "4px"  }}>{email}</p>
+            </div>
           )
         }
         {
           profiles.map(({ network, url }) => {
-            const Icon = SOCIAL_ICONS[network]
+            const Icon = SOCIAL_ICONS[network];
 
             return (
-              <a
-                href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon />
-              </a>
-            )
+              <div>
+                <a href={url}>
+                  <Icon />
+                </a>
+                <p style={{ display: "inline", position: "relative", bottom: "4px" }}>{url}</p>
+              </div>
+            );
           })
         }
       </footer>
@@ -128,7 +124,6 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eee;
     padding: 4px;
     height: 32px;
     width: 32px;

@@ -38,20 +38,18 @@ interface Work {
   name: string;
   position: string;
   url: string;
-  startDate: DateStr;
-  endDate: DateStr | null;
+  startDate: string;
+  endDate: string | null;
   summary: string;
   highlights: Highlight;
 }
-
-type DateStr = `${string}-${string}-${string}`;
 
 interface Volunteer {
   organization: string;
   position: string;
   url: string;
-  startDate: DateStr;
-  endDate: DateStr;
+  startDate: string;
+  endDate: string;
   summary: string;
   highlights: Highlight;
 }
@@ -75,9 +73,8 @@ interface Education {
   institution: string;
   url: string;
   studyType: string;
-  isLongStudy: true;
-  startDate?: DateStr;
-  endDate: DateStr;
+  startDate?: string;
+  endDate: string;
   hours: string;
   description: string;
   courses: Array<string>;

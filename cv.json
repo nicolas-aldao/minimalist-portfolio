@@ -32,48 +32,48 @@
     {
       "name": "React Developer",
       "position": "Baufest | Important bank in Argentina",
-      "startDate": "2023-02-01",
-      "endDate": null,
+      "startDate": "2023",
+      "endDate": "Feb 2024",
       "summary": "Fix bugs and new features development in mobile application. Create responsive UI. Deploys with Jenkins. Refactor and optimize old code.",
       "highlights": ["Started the company"]
     },
     {
       "name": "React Native Developer",
       "position": "Baufest | Important bank in Jamaica",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
+      "startDate": "Jun 2022",
+      "endDate": "Dec 2022",
       "summary": "Fix bugs and new features development in mobile application. Elaborate unit tests. Fix linting errors. Styled Components",
       "highlights": ["Started the company"]
     },
     {
       "name": "C# Developer",
       "position": "Baufest | Agribusiness from Argentina",
-      "startDate": "2021-01-01",
-      "endDate": "2021-03-01",
+      "startDate": "Jan 2021",
+      "endDate": "Mar 2021",
       "summary": "Fix bugs and new features development in application MVC .NET with Razor.",
       "highlights": ["Started the company"]
     },
     {
       "name": "SQL Server and Backend Development Support",
       "position": "Baufest | Agribusiness from Argentina | Oct 2020 - Dic 2021",
-      "startDate": "2020-10-01",
-      "endDate": "2021-12-01",
+      "startDate": "2020",
+      "endDate": "2021",
       "summary": "Fix bugs in application MVC .NET with Razor. Modify and run SQL Scripts.",
       "highlights": ["Started the company"]
     },
     {
       "name": "BI Tools Support",
       "position": "Baufest | Retail from Latin América",
-      "startDate": "2019-12-01",
-      "endDate": "2020-09-01",
+      "startDate": "2019",
+      "endDate": "2020",
       "summary": "Modify and run Powershell Scripts. Modify and run SQL Scripts. Modify, fix and deploy SQL Data Tools (Integration Services).",
       "highlights": ["Started the company"]
     },
     {
       "name": "Technical Support",
       "position": "Baufest | Important sportswear brand",
-      "startDate": "2018-01-01",
-      "endDate": "2019-01-01",
+      "startDate": "2018",
+      "endDate": "2019",
       "summary": "Control data sellout reports. Automated tasks using Excel and VBA macros. Collaborated with clients via email to resolve daily business problems.",
       "highlights": ["Started the company"]
     }
@@ -95,9 +95,8 @@
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-b0a41950-67b7-4524-b16e-64df3097e098",
       "studyType": "Bachelor",
-      "isLongStudy": false,
       "startDate": null,
-      "endDate": "2024-04-29",
+      "endDate": "Apr 2024",
       "hours": "7.5",
       "description": "Test-Driven Development. Test behavior instead of implementation",
       "courses": ["DB1101 - Basic SQL"]
@@ -107,9 +106,8 @@
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.comhttps://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
       "studyType": "Bachelor",
-      "isLongStudy": false,
       "startDate": null,
-      "endDate": "2024-04-08",
+      "endDate": "Apr 2024",
       "hours": "6.5",
       "description": "Tech Debt. Code Smells. SOLID Principles. Good practices",
       "courses": ["DB1101 - Basic SQL"]
@@ -119,9 +117,8 @@
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-ed2a871a-d3b1-4d18-9d2c-dc348cf96dd5",
       "studyType": "Bachelor",
-      "isLongStudy": false,
       "startDate": null,
-      "endDate": "2023-01-01",
+      "endDate": "Jan 2023",
       "hours": "22",
       "description": "State Management with Context. In-App Authentication. Json Web Token",
       "courses": ["DB1101 - Basic SQL"]
@@ -131,9 +128,8 @@
       "institution": "Baufest",
       "url": "https://baufest.com",
       "studyType": "Bachelor",
-      "isLongStudy": false,
-      "startDate": "2022-11-01",
-      "endDate": "2022-12-01",
+      "startDate": null,
+      "endDate": "Dec 2022",
       "hours": "4.0",
       "description": "React Intensive Training emulating a real project, building a digital wallet MVP in React to send and receive money. Consuming API's. Form validations.",
       "courses": ["DB1101 - Basic SQL"]
@@ -143,9 +139,8 @@
       "institution": "Platzi",
       "url": "https://platzi.com/p/NicolasAldao",
       "studyType": "Bachelor",
-      "isLongStudy": false,
-      "startDate": null,
-      "endDate": "2022-01-01",
+      "startDate": "Jan",
+      "endDate": "Mar 2022",
       "hours": "16",
       "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's",
       "courses": ["DB1101 - Basic SQL"]
@@ -155,9 +150,8 @@
       "institution": "Instituto Santo Tomás de Aquino",
       "url": "https://platzi.com/p/NicolasAldao",
       "studyType": "Bachelor",
-      "isLongStudy": true,
-      "startDate": "2016-1-1",
-      "endDate": "2020-1-1",
+      "startDate": "2016",
+      "endDate": "2020",
       "hours": null,
       "description": "3-year tertiary career at an institute in Argentina. Be able to analize requirements, algoriths and computer systems. Learn and build web pages and desktop applications. Elaborate and apply good practices to relational databases",
       "courses": ["DB1101 - Basic SQL"]

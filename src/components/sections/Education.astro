@@ -4,43 +4,34 @@ import { formatDateToMonthYear } from "../../utils/dateFormat"
 import { education } from "@cv"
 ---
 
-<Section title="Education & Certifications">
-  <ul>
-    {
-      education.map(({ name, institution, isLongStudy, url, startDate, endDate, description }) => {
-        let years;
-        // estudios formales, formato: 2016-2020
-        if (isLongStudy && startDate) {
-          const startYear = new Date(startDate).getFullYear();
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          years = `${startYear} - ${endYear}`;
-        } else if (endDate) { 
-          // certificaciones, formato de finalización: abr 2024
-          years = formatDateToMonthYear(endDate); 
-        }
+<div style={{ paddingTop: "70px" }}>
+  <Section title="Education & Certifications">
+    <ul>
+      {
+        education.map(({ name, institution, url, startDate, endDate, description }) => {
 
-        return (
-          <li>
-            <article>
-              <header>
-                <a href={url}>
-                  <h3>{name} - {institution}</h3>
-                </a>
+          return (
+            <li>
+              <article>
+                <header>
+                  <a href={url}>
+                    <h3>{name} - {institution}</h3>
+                  </a>
 
-                <time>{years}</time>
-              </header>
+                  <time>{startDate && `${startDate}  - ` } {endDate}</time>
+                </header>
 
-              <footer>
-                <p>{description}</p>
-              </footer>
-            </article>
-          </li>
-        )
-      })
-    }
-  </ul>
-</Section>
+                <footer>
+                  <p>{description}</p>
+                </footer>
+              </article>
+            </li>
+          )
+        })
+      }
+    </ul>
+  </Section>
+</div>
 
 <style>
   ul {

@@ -9,10 +9,6 @@ import { work } from "@cv"
     {
       work.map(
         ({ name, startDate, endDate, position, summary }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
-
           return (
             <li>
               <article>
@@ -28,13 +24,13 @@ import { work } from "@cv"
                     <time
                       datetime={startDate}
                       data-title={startDate}>
-                        {startYear}
+                        {startDate}
                     </time>
                     {" - "}
                     <time
                       datetime={endDate}
                       data-title={endDate}>
-                        {endYear}
+                        {endDate}
                     </time>
                   </div>
                 </header>
