@@ -1,24 +1,26 @@
 ---
-import Section from "../Section.astro"
-import { formatDateToMonthYear } from "../../utils/dateFormat"
-import { education } from "@cv"
+import Section from "../Section.astro";
+import { education } from "@cv";
 ---
 
-<div style={{ paddingTop: "70px" }}>
-  <Section title="Education & Certifications">
-    <ul>
-      {
-        education.map(({ name, institution, url, startDate, endDate, description }) => {
-
+<Section title="Education & Certifications">
+  <ul>
+    {
+      education.map(
+        ({ name, institution, url, startDate, endDate, description }) => {
           return (
             <li>
               <article>
                 <header>
                   <a href={url}>
-                    <h3>{name} - {institution}</h3>
+                    <h3>
+                      {name} - {institution}
+                    </h3>
                   </a>
 
-                  <time>{startDate && `${startDate}  - ` } {endDate}</time>
+                  <time>
+                    {startDate && `${startDate}  - `} {endDate}
+                  </time>
                 </header>
 
                 <footer>
@@ -26,12 +28,12 @@ import { education } from "@cv"
                 </footer>
               </article>
             </li>
-          )
-        })
-      }
-    </ul>
-  </Section>
-</div>
+          );
+        },
+      )
+    }
+  </ul>
+</Section>
 
 <style>
   ul {
