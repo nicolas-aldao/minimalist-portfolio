@@ -35,7 +35,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
       <!-- <footer class="print">
         {printInfo}
       </footer> -->
-      <footer style={{ display: "block"}}>
+      <footer style={{ display: "block", width: "530px"}}>
         {
           email && (
             <div style={{ display: "inline" }}>
@@ -51,7 +51,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
             const Icon = SOCIAL_ICONS[network];
 
             return (
-              <div>
+              <div style={{ display: "inline" }}>
                 <a href={url}>
                   <Icon />
                 </a>
@@ -62,9 +62,9 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
         }
       </footer>
     </div>
-    <figure>
+    <!-- <figure>
       <img src={image} alt={name} />
-    </figure>
+    </figure> -->
   </div>
 </Section>
 

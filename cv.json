@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Nicolás Aldao",
-    "label": "Frontend Developer with 5 years of experience in IT from Argentina",
+    "label": "Frontend Developer with 5 years of experience in IT",
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
@@ -20,11 +20,6 @@
         "network": "GitHub",
         "username": "nicolas-aldao",
         "url": "github.com/nicolas-aldao"
-      },
-      {
-        "network": "Platzi",
-        "username": "nicolas-aldao",
-        "url": "platzi.com/p/NicolasAldao"
       }
     ]
   },
