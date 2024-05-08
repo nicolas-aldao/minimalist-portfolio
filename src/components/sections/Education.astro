@@ -1,41 +1,39 @@
 ---
 import Section from "../Section.astro";
-import { education } from "@cv";
+import { education, sections } from "@cv";
 ---
 
-<div style={{ paddingTop: "50px" }}>
-  <Section title="Education & Certifications">
-    <ul>
-      {
-        education.map(
-          ({ name, institution, url, startDate, endDate, description }) => {
-            return (
-              <li>
-                <article>
-                  <header>
-                    <a href={url}>
-                      <h3>
-                        {name} - {institution}
-                      </h3>
-                    </a>
+<Section title={sections.education}>
+  <ul>
+    {
+      education.map(
+        ({ name, institution, url, startDate, endDate, description }) => {
+          return (
+            <li>
+              <article>
+                <header>
+                  <a href={url}>
+                    <h3>
+                      {name} - {institution}
+                    </h3>
+                  </a>
 
-                    <time>
-                      {startDate && `${startDate}  - `} {endDate}
-                    </time>
-                  </header>
+                  <time>
+                    {startDate && `${startDate}  - `} {endDate}
+                  </time>
+                </header>
 
-                  <footer>
-                    <p>{description}</p>
-                  </footer>
-                </article>
-              </li>
-            );
-          },
-        )
-      }
-    </ul>
-  </Section>
-</div>
+                <footer>
+                  <p>{description}</p>
+                </footer>
+              </article>
+            </li>
+          );
+        },
+      )
+    }
+  </ul>
+</Section>
 
 <style>
   ul {

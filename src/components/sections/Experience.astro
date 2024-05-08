@@ -1,10 +1,10 @@
 ---
 import Section from "../Section.astro"
 
-import { work } from "@cv"
+import { work, sections } from "@cv"
 ---
 
-<Section title="Work Experience">
+<Section title={sections.work}>
   <ul>
     {
       work.map(
@@ -52,6 +52,10 @@ import { work } from "@cv"
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+
+  ul li:nth-child(5) {
+      margin-top: 80px;
   }
 
   article h3 {

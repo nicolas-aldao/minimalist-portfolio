@@ -1,17 +1,17 @@
-{  
+{
   "sections": {
-    "about": "About me",
-    "work": "Work Experience",
-    "education": "Education & Certifications",
-    "skills": "Skills"
+    "about": "Sobre mi",
+    "work": "Experiencia Laboral",
+    "education": "Educación y Certificaciones",
+    "skills": "Habilidades"
   },
   "basics": {
     "name": "Nicolás Aldao",
-    "label": "Frontend Developer with 5 years of experience in IT",
+    "label": "Frontend Developer con 5 años de experiencia en el sector IT",
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "My first approach to programming was through video games, I completed the degree in Systems Analysis in Argentina, in my opinion, I find fascinating to be able to construct tangible things that have practical utility through code, combining logic and creativity. Throughout my career I've been in different kinds of IT projects.",
+    "summary": "Tuve mis primeros acercamientos hacia la programación con los videojuegos, después de haber estudiado unos años inglés, tuve la oportunidad de empezar la carrera de Analista de Sistemas la cual terminé en el 2020. En IT empecé a trabajar en una consultora argentina la cuál estuve 5 años formando parte de distintos proyectos, siendo los últimos en el área del frontend. Encuentro apasionante poder construir aplicaciones web y mobile complejas, utilizando la creatividad y la lógica, para que puedan resolver los problemas de las personas.",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
@@ -32,50 +32,50 @@
   "work": [
     {
       "name": "React Developer",
-      "position": "Baufest | Important bank in Argentina",
+      "position": "Baufest | Importante banco de Argentina",
       "startDate": "2023",
       "endDate": "Feb 2024",
-      "summary": "Fix bugs and new features development in mobile application. Create responsive UI. Deploys with Jenkins. Refactor and optimize old code.",
+      "summary": "Resolver bugs, desarrollar nuevas features. Crear UI responsivas. Ejecutar deploys usando Jenkins. Hacer optimizaciones y refactor de código antiguo.",
       "highlights": ["Started the company"]
     },
     {
       "name": "React Native Developer",
-      "position": "Baufest | Important bank in Jamaica",
+      "position": "Baufest | Importante banco en Jamaica",
       "startDate": "Jun 2022",
-      "endDate": "Dec 2022",
-      "summary": "Fix bugs and new features development in mobile application. Elaborate unit tests. Fix linting errors. Styled Components",
+      "endDate": "Dic 2022",
+      "summary": "Resolver bugs, desarrollar nuevas features. Elaborar unit tests. Arreglar errores de lint. Utilizar Styled Components.",
       "highlights": ["Started the company"]
     },
     {
       "name": "C# Developer",
-      "position": "Baufest | Agribusiness from Argentina",
-      "startDate": "Jan 2021",
+      "position": "Baufest | Empresa de Agroindustria de Argentina",
+      "startDate": "Ene 2021",
       "endDate": "Mar 2021",
-      "summary": "Fix bugs and new features development in application MVC .NET with Razor.",
+      "summary": "Arreglar bugs y desarrollar nuevas features en una aplicación MVC .NET con Razor.",
       "highlights": ["Started the company"]
     },
     {
-      "name": "SQL Server and Backend Development Support",
-      "position": "Baufest | Agribusiness from Argentina | Oct 2020 - Dic 2021",
+      "name": "Soporte en Backend y SQL Server",
+      "position": "Baufest | Empresa de Agroindustria de Argentina",
       "startDate": "2020",
       "endDate": "2021",
-      "summary": "Fix bugs in application MVC .NET with Razor. Modify and run SQL Scripts.",
+      "summary": "Arreglar pequeños bugs en aplicación MVC .NET con Razor. Modificar y ejecutar scripts de SQL.",
       "highlights": ["Started the company"]
     },
     {
-      "name": "BI Tools Support",
-      "position": "Baufest | Retail from Latin América",
+      "name": "Soporte de herramientas BI",
+      "position": "Baufest | Empresa de Supermercados en Latinoamérica",
       "startDate": "2019",
       "endDate": "2020",
-      "summary": "Modify and run Powershell Scripts. Modify and run SQL Scripts. Modify, fix and deploy SQL Data Tools (Integration Services).",
+      "summary": "Modificar y ejecutar scripts Powershell. Modificar y correr scripts SQL. Modificar y ejecutar scripts de SQL Data Tools (Integration Services).",
       "highlights": ["Started the company"]
     },
     {
-      "name": "Technical Support",
-      "position": "Baufest | Important sportswear brand",
+      "name": "Soporte Técnico",
+      "position": "Baufest | Importante marca de deportes",
       "startDate": "2018",
       "endDate": "2019",
-      "summary": "Control data sellout reports. Automated tasks using Excel and VBA macros. Collaborated with clients via email to resolve daily business problems.",
+      "summary": "Control de reportes de ventas. Automatizar tareas usando Excel y Macros de Visual Basic for Applications. Colaborar con el cliente vía email resolviendo problemáticas de negocio.",
       "highlights": ["Started the company"]
     }
   ],
@@ -92,69 +92,69 @@
   ],
   "education": [
     {
-      "name": "React Testing Library with Jest / Vitest course",
+      "name": "Curso React Testing Library con Jest / Vitest",
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-b0a41950-67b7-4524-b16e-64df3097e098",
       "studyType": "Bachelor",
       "startDate": null,
-      "endDate": "Apr 2024",
+      "endDate": "Abr 2024",
       "hours": "7.5",
-      "description": "Test-Driven Development. Test behavior instead of implementation",
+      "description": "Test-Driven Development. Comportamiento de la aplicación por sobre la implementación.",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "name": "Solid and Clean Code principles course",
+      "name": "Curso de Principios Solid y Clean Code",
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.comhttps://www.udemy.com/certificate/UC-d1a83958-13ce-4a9b-b16f-c3f27e181b84/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com",
       "studyType": "Bachelor",
       "startDate": null,
-      "endDate": "Apr 2024",
+      "endDate": "Abr 2024",
       "hours": "6.5",
-      "description": "Tech Debt. Code Smells. SOLID Principles. Good practices",
+      "description": "Deuda Técnica. Code Smells. Principios SOLID. Buenas prácticas.",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "name": "The complete React Native + Hooks course",
+      "name": "Curso The complete React Native + Hooks",
       "institution": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-ed2a871a-d3b1-4d18-9d2c-dc348cf96dd5",
       "studyType": "Bachelor",
       "startDate": null,
-      "endDate": "Jan 2023",
+      "endDate": "Ene 2023",
       "hours": "22",
-      "description": "State Management with Context. In-App Authentication. Json Web Token",
+      "description": "Manejo de estado con Context. In-App Authentication. Json Web Token.",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "name": "React Native Intensive couse",
+      "name": "Curso Intensivo de React Native",
       "institution": "Baufest",
       "url": "https://baufest.com",
       "studyType": "Bachelor",
       "startDate": null,
-      "endDate": "Dec 2022",
+      "endDate": "Dic 2022",
       "hours": "4.0",
-      "description": "React Intensive Training emulating a real project, building a digital wallet MVP in React to send and receive money. Consuming API's. Form validations.",
+      "description": "Entrenamiento intensivo emulando un proyecto real. Construcción de una billetera virtual. Consumo de microservicios. Validaciones en formularios. Atomic Design.",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "name": "React Courses (various)",
+      "name": "Cursos de React (varios)",
       "institution": "Platzi",
       "url": "https://platzi.com/p/NicolasAldao",
       "studyType": "Bachelor",
-      "startDate": "Jan",
+      "startDate": "Ene",
       "endDate": "Mar 2022",
       "hours": "16",
-      "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's",
+      "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's.",
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "name": "System Analist Career",
+      "name": "Técnicatura en Análisis de Sistemas",
       "institution": "Instituto Santo Tomás de Aquino",
       "url": "https://platzi.com/p/NicolasAldao",
       "studyType": "Bachelor",
       "startDate": "2016",
       "endDate": "2020",
       "hours": null,
-      "description": "3-year tertiary career at an institute in Argentina. Be able to analize requirements, algoriths and computer systems. Learn and build web pages and desktop applications. Elaborate and apply good practices to relational databases",
+      "description": "Carrera de 3 años en instituto en Argentina. Análisis de requerimientos, algoritmos y sistemas computacionales. Construcción de páginas web y de escritorio. Normalización de base de datos. Ciclo de vida de los sistemas.",
       "courses": ["DB1101 - Basic SQL"]
     }
   ],
@@ -250,11 +250,11 @@
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
+      "language": "Inglés",
       "fluency": "B2"
     }
   ],

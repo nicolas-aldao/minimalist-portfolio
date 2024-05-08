@@ -14,7 +14,7 @@ import Next from "@/icons/next.astro"
 import Postman from "@/icons/postman.astro"
 import Jenkins from "@/icons/jenkins.astro"
 import Swagger from "@/icons/swagger.astro"
-import { skills } from "@cv"
+import { skills, sections } from "@cv"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -34,7 +34,7 @@ const SKILLS_ICONS: Record<string, any> = {
 }
 ---
 
-<Section title="Skills">
+<Section title={sections.skills}>
   <ul>
     {
       skills.map(({ name }) => {

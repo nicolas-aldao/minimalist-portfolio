@@ -1,4 +1,5 @@
 export interface CV {
+  sections: Sections;
   basics: Basics;
   work: Array<Work>;
   volunteer: Array<Volunteer>;
@@ -10,6 +11,13 @@ export interface CV {
   interests: Array<Interests>;
   references: Array<References>;
   projects: Array<Projects>;
+}
+
+interface Sections {
+  about: string;
+  work: string;
+  education: string;
+  skills: string;
 }
 
 interface Basics {
