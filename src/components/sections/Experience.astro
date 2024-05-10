@@ -1,48 +1,40 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { work, sections } from "@cv"
+import { work, sections } from "@cv";
 ---
 
 <Section title={sections.work}>
   <ul>
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary }) => {
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <h3>
-                        {name}
-                    </h3>
-                    <h4>{position}</h4>
-                  </div>
+      work.map(({ name, startDate, endDate, position, summary }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                  <h4>{position}</h4>
+                </div>
 
-                  <div>
-                    <time
-                      datetime={startDate}
-                      data-title={startDate}>
-                        {startDate}
-                    </time>
-                    {" - "}
-                    <time
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endDate}
-                    </time>
-                  </div>
-                </header>
+                <div>
+                  <time datetime={startDate} data-title={startDate}>
+                    {startDate}
+                  </time>
+                  {" - "}
+                  <time datetime={endDate} data-title={endDate}>
+                    {endDate}
+                  </time>
+                </div>
+              </header>
 
-                <footer>
-                  <p>{summary}</p>
-                </footer>
-              </article>
-            </li>
-          )
-        }
-      )
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
     }
   </ul>
 </Section>
@@ -54,8 +46,12 @@ import { work, sections } from "@cv"
     gap: 32px;
   }
 
-  ul li:nth-child(5) {
-      margin-top: 80px;
+  /* ul li:nth-child(5) {
+    margin-top: 80px;
+  } */
+
+  ul li:last-child {
+    margin-top: 80px;
   }
 
   article h3 {
@@ -100,10 +96,15 @@ import { work, sections } from "@cv"
     content: attr(data-title);
     background-color: #333;
     color: #fff;
-    font-size: .75rem;
-    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;;
+    font-size: 0.75rem;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      "Courier New",
+      monospace;
     position: absolute;
-    padding: .2rem .5rem;
+    padding: 0.2rem 0.5rem;
     bottom: -1.4rem;
     left: 50%;
     white-space: nowrap;

@@ -1,9 +1,10 @@
-{  
+{
   "sections": {
     "about": "About me",
     "work": "Work Experience",
     "education": "Education & Certifications",
-    "skills": "Skills"
+    "skills": "Skills",
+    "languages": "Languages"
   },
   "basics": {
     "name": "Nicolás Aldao",
@@ -11,7 +12,7 @@
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "My first approach to programming was through video games, I completed the degree in Systems Analysis in Argentina, in my opinion, I find fascinating to be able to construct tangible things that have practical utility through code, combining logic and creativity. Throughout my career I've been in different kinds of IT projects.",
+    "summary": "I had my first exposure to programming through video games, after studying English for a couple of years, I had the opportunity to begin the System Analyst career, which I completed in 2020. Began my professional journey at an Argentinean IT company, where I worked for 5 years, being part of different kinds of projects, with a focus on Frontend development in my later roles. I find it fascinating to be able to build complex web and mobile applications using creativity and logic to find solution to people’s problems.",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
@@ -34,9 +35,11 @@
       "name": "React Developer",
       "position": "Baufest | Important bank in Argentina",
       "startDate": "2023",
-      "endDate": "Feb 2024",
+      "endDate": "Mar 2024",
       "summary": "Fix bugs and new features development in mobile application. Create responsive UI. Deploys with Jenkins. Refactor and optimize old code.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "React Native Developer",
@@ -44,7 +47,9 @@
       "startDate": "Jun 2022",
       "endDate": "Dec 2022",
       "summary": "Fix bugs and new features development in mobile application. Elaborate unit tests. Fix linting errors. Styled Components",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "C# Developer",
@@ -52,7 +57,9 @@
       "startDate": "Jan 2021",
       "endDate": "Mar 2021",
       "summary": "Fix bugs and new features development in application MVC .NET with Razor.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "SQL Server and Backend Development Support",
@@ -60,7 +67,9 @@
       "startDate": "2020",
       "endDate": "2021",
       "summary": "Fix bugs in application MVC .NET with Razor. Modify and run SQL Scripts.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "BI Tools Support",
@@ -68,7 +77,9 @@
       "startDate": "2019",
       "endDate": "2020",
       "summary": "Modify and run Powershell Scripts. Modify and run SQL Scripts. Modify, fix and deploy SQL Data Tools (Integration Services).",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "Technical Support",
@@ -76,7 +87,9 @@
       "startDate": "2018",
       "endDate": "2019",
       "summary": "Control data sellout reports. Automated tasks using Excel and VBA macros. Collaborated with clients via email to resolve daily business problems.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     }
   ],
   "volunteer": [
@@ -87,7 +100,9 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
     }
   ],
   "education": [
@@ -100,7 +115,9 @@
       "endDate": "Apr 2024",
       "hours": "7.5",
       "description": "Test-Driven Development. Test behavior instead of implementation",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "Solid and Clean Code principles course",
@@ -111,7 +128,9 @@
       "endDate": "Apr 2024",
       "hours": "6.5",
       "description": "Tech Debt. Code Smells. SOLID Principles. Good practices",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "The complete React Native + Hooks course",
@@ -122,7 +141,9 @@
       "endDate": "Jan 2023",
       "hours": "22",
       "description": "State Management with Context. In-App Authentication. Json Web Token",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "React Native Intensive couse",
@@ -133,7 +154,9 @@
       "endDate": "Dec 2022",
       "hours": "4.0",
       "description": "React Intensive Training emulating a real project, building a digital wallet MVP in React to send and receive money. Consuming API's. Form validations.",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "React Courses (various)",
@@ -144,7 +167,9 @@
       "endDate": "Mar 2022",
       "hours": "16",
       "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "System Analist Career",
@@ -155,7 +180,9 @@
       "endDate": "2020",
       "hours": null,
       "description": "3-year tertiary career at an institute in Argentina. Be able to analize requirements, algoriths and computer systems. Learn and build web pages and desktop applications. Elaborate and apply good practices to relational databases",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     }
   ],
   "awards": [
@@ -179,17 +206,29 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
     },
     {
       "name": "TypeScript",
@@ -204,7 +243,11 @@
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
     },
     {
       "name": "GitHub",
@@ -224,7 +267,9 @@
     {
       "name": "Jenkins",
       "level": "Básico",
-      "keywords": ["Deploy"]
+      "keywords": [
+        "Deploy"
+      ]
     },
     {
       "name": "Swagger",
@@ -245,7 +290,12 @@
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
     }
   ],
   "languages": [
@@ -261,7 +311,10 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
     }
   ],
   "references": [
@@ -275,7 +328,12 @@
       "name": "Digital Wallet",
       "isActive": true,
       "description": "A digital wallet where you can send and receive money from other users. You can see your money movements too!",
-      "highlights": ["React", "Node", "MongooDB", "NextUI"],
+      "highlights": [
+        "React",
+        "Node",
+        "MongooDB",
+        "NextUI"
+      ],
       "url": "https://digital-wallet-one.vercel.app",
       "github": "https://github.com/nicolas-aldao/digital-wallet"
     },
@@ -283,7 +341,13 @@
       "name": "Artgram",
       "isActive": true,
       "description": "It's an app based in Instagram's style where you can browse through different art paintings. Note: You can use the demo account: user: demo pass: demo",
-      "highlights": ["HTML", "CSS", "React", "Node", "MongooDB"],
+      "highlights": [
+        "HTML",
+        "CSS",
+        "React",
+        "Node",
+        "MongooDB"
+      ],
       "url": "https://nagram.vercel.app",
       "github": "https://github.com/nicolas-aldao/instagram-clone"
     },
@@ -291,7 +355,11 @@
       "name": "Grid Layout Concept Art: Beatles",
       "isActive": true,
       "description": "This is a concept art for a grid layout. I used to The Beatles as an example.",
-      "highlights": ["HTML", "CSS", "Grid Layout"],
+      "highlights": [
+        "HTML",
+        "CSS",
+        "Grid Layout"
+      ],
       "url": "https://nicolas-aldao.github.io/grid-layout-concept-art",
       "github": "https://github.com/nicolas-aldao/grid-layout-concept-art"
     }

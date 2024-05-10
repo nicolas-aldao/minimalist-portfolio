@@ -7,7 +7,7 @@ export interface CV {
   awards: Array<Awards>;
   publications: Array<Publications>;
   skills: Array<string>;
-  languages: Array<string>;
+  languages: Array<Language>;
   interests: Array<Interests>;
   references: Array<References>;
   projects: Array<Projects>;
@@ -18,6 +18,7 @@ interface Sections {
   work: string;
   education: string;
   skills: string;
+  languages: string;
 }
 
 interface Basics {

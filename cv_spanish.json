@@ -3,7 +3,8 @@
     "about": "Sobre mi",
     "work": "Experiencia Laboral",
     "education": "Educación y Certificaciones",
-    "skills": "Habilidades"
+    "skills": "Habilidades",
+    "languages": "Idiomas"
   },
   "basics": {
     "name": "Nicolás Aldao",
@@ -34,9 +35,11 @@
       "name": "React Developer",
       "position": "Baufest | Importante banco de Argentina",
       "startDate": "2023",
-      "endDate": "Feb 2024",
+      "endDate": "Mar 2024",
       "summary": "Resolver bugs, desarrollar nuevas features. Crear UI responsivas. Ejecutar deploys usando Jenkins. Hacer optimizaciones y refactor de código antiguo.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "React Native Developer",
@@ -44,7 +47,9 @@
       "startDate": "Jun 2022",
       "endDate": "Dic 2022",
       "summary": "Resolver bugs, desarrollar nuevas features. Elaborar unit tests. Arreglar errores de lint. Utilizar Styled Components.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "C# Developer",
@@ -52,7 +57,9 @@
       "startDate": "Ene 2021",
       "endDate": "Mar 2021",
       "summary": "Arreglar bugs y desarrollar nuevas features en una aplicación MVC .NET con Razor.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "Soporte en Backend y SQL Server",
@@ -60,7 +67,9 @@
       "startDate": "2020",
       "endDate": "2021",
       "summary": "Arreglar pequeños bugs en aplicación MVC .NET con Razor. Modificar y ejecutar scripts de SQL.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "Soporte de herramientas BI",
@@ -68,7 +77,9 @@
       "startDate": "2019",
       "endDate": "2020",
       "summary": "Modificar y ejecutar scripts Powershell. Modificar y correr scripts SQL. Modificar y ejecutar scripts de SQL Data Tools (Integration Services).",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     },
     {
       "name": "Soporte Técnico",
@@ -76,7 +87,9 @@
       "startDate": "2018",
       "endDate": "2019",
       "summary": "Control de reportes de ventas. Automatizar tareas usando Excel y Macros de Visual Basic for Applications. Colaborar con el cliente vía email resolviendo problemáticas de negocio.",
-      "highlights": ["Started the company"]
+      "highlights": [
+        "Started the company"
+      ]
     }
   ],
   "volunteer": [
@@ -87,7 +100,9 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
     }
   ],
   "education": [
@@ -100,7 +115,9 @@
       "endDate": "Abr 2024",
       "hours": "7.5",
       "description": "Test-Driven Development. Comportamiento de la aplicación por sobre la implementación.",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "Curso de Principios Solid y Clean Code",
@@ -111,7 +128,9 @@
       "endDate": "Abr 2024",
       "hours": "6.5",
       "description": "Deuda Técnica. Code Smells. Principios SOLID. Buenas prácticas.",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "Curso The complete React Native + Hooks",
@@ -122,7 +141,9 @@
       "endDate": "Ene 2023",
       "hours": "22",
       "description": "Manejo de estado con Context. In-App Authentication. Json Web Token.",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "Curso Intensivo de React Native",
@@ -133,7 +154,9 @@
       "endDate": "Dic 2022",
       "hours": "4.0",
       "description": "Entrenamiento intensivo emulando un proyecto real. Construcción de una billetera virtual. Consumo de microservicios. Validaciones en formularios. Atomic Design.",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "Cursos de React (varios)",
@@ -144,7 +167,9 @@
       "endDate": "Mar 2022",
       "hours": "16",
       "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's.",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     },
     {
       "name": "Técnicatura en Análisis de Sistemas",
@@ -155,7 +180,9 @@
       "endDate": "2020",
       "hours": null,
       "description": "Carrera de 3 años en instituto en Argentina. Análisis de requerimientos, algoritmos y sistemas computacionales. Construcción de páginas web y de escritorio. Normalización de base de datos. Ciclo de vida de los sistemas.",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
     }
   ],
   "awards": [
@@ -179,17 +206,29 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
     },
     {
       "name": "TypeScript",
@@ -204,7 +243,11 @@
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
     },
     {
       "name": "GitHub",
@@ -224,7 +267,9 @@
     {
       "name": "Jenkins",
       "level": "Básico",
-      "keywords": ["Deploy"]
+      "keywords": [
+        "Deploy"
+      ]
     },
     {
       "name": "Swagger",
@@ -245,7 +290,12 @@
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
     }
   ],
   "languages": [
@@ -261,7 +311,10 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
     }
   ],
   "references": [
@@ -275,7 +328,12 @@
       "name": "Digital Wallet",
       "isActive": true,
       "description": "A digital wallet where you can send and receive money from other users. You can see your money movements too!",
-      "highlights": ["React", "Node", "MongooDB", "NextUI"],
+      "highlights": [
+        "React",
+        "Node",
+        "MongooDB",
+        "NextUI"
+      ],
       "url": "https://digital-wallet-one.vercel.app",
       "github": "https://github.com/nicolas-aldao/digital-wallet"
     },
@@ -283,7 +341,13 @@
       "name": "Artgram",
       "isActive": true,
       "description": "It's an app based in Instagram's style where you can browse through different art paintings. Note: You can use the demo account: user: demo pass: demo",
-      "highlights": ["HTML", "CSS", "React", "Node", "MongooDB"],
+      "highlights": [
+        "HTML",
+        "CSS",
+        "React",
+        "Node",
+        "MongooDB"
+      ],
       "url": "https://nagram.vercel.app",
       "github": "https://github.com/nicolas-aldao/instagram-clone"
     },
@@ -291,7 +355,11 @@
       "name": "Grid Layout Concept Art: Beatles",
       "isActive": true,
       "description": "This is a concept art for a grid layout. I used to The Beatles as an example.",
-      "highlights": ["HTML", "CSS", "Grid Layout"],
+      "highlights": [
+        "HTML",
+        "CSS",
+        "Grid Layout"
+      ],
       "url": "https://nicolas-aldao.github.io/grid-layout-concept-art",
       "github": "https://github.com/nicolas-aldao/grid-layout-concept-art"
     }
