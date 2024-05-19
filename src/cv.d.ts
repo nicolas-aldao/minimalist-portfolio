@@ -39,8 +39,8 @@ interface Location {
 
 interface Profiles {
   network: string;
-  username: string;
-  url: string;
+  href: string;
+  text: string;
 }
 
 interface Work {

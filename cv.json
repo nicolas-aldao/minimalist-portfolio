@@ -19,14 +19,24 @@
     },
     "profiles": [
       {
+        "network": "Website",
+        "href": "",
+        "text": "My Website: nicolas-aldao.vercel.app"
+      },
+      {
+        "network": "Mail",
+        "href": "mailto:nicolasaldao@live.com",
+        "text": "nicolasaldao@live.com"
+      },
+      {
         "network": "LinkedIn",
-        "username": "nicolas-aldao",
-        "url": "linkedin.com/in/nicolas-aldao"
+        "href": "nicolas-aldao",
+        "text": "linkedin.com/in/nicolas-aldao"
       },
       {
         "network": "GitHub",
-        "username": "nicolas-aldao",
-        "url": "github.com/nicolas-aldao"
+        "href": "nicolas-aldao",
+        "text": "github.com/nicolas-aldao"
       }
     ]
   },
@@ -277,6 +287,16 @@
       "keywords": []
     },
     {
+      "name": "SQL Server",
+      "level": "Básico",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "Básico",
+      "keywords": []
+    },
+    {
       "name": "Next.js",
       "level": "Avanzado",
       "keywords": [
@@ -289,6 +309,16 @@
     },
     {
       "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "React Native",
       "level": "Avanzado",
       "keywords": [
         "Desarrollo Web",

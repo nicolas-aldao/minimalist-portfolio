@@ -1,51 +1,56 @@
 ---
-import Section from "../Section.astro"
-import HTML from "@/icons/html.astro"
-import CSS from "@/icons/css.astro"
-import JavaScript from "@/icons/javascript.astro"
-import TypeScript from "@/icons/type.astro"
-import React from "@/icons/react.astro"
-import Node from "@/icons/node.astro"
-import MySQL from "@/icons/sql.astro"
-import Git from "@/icons/git.astro"
-import GitHub from "@/icons/GitHub.astro"
-import Tailwind from "@/icons/tailwind.astro"
-import Next from "@/icons/next.astro"
-import Postman from "@/icons/postman.astro"
-import Jenkins from "@/icons/jenkins.astro"
-import Swagger from "@/icons/swagger.astro"
-import { skills, sections } from "@cv"
+import Section from "../Section.astro";
+import HTML from "@/icons/html.astro";
+import CSS from "@/icons/css.astro";
+import CSharp from "@/icons/csharp.astro";
+import JavaScript from "@/icons/javascript.astro";
+import TypeScript from "@/icons/type.astro";
+import React from "@/icons/react.astro";
+import ReactNative from "@/icons/ReactNative.astro";
+import Node from "@/icons/node.astro";
+import MySQL from "@/icons/MySQL.astro";
+import SQL from "@/icons/SQL.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Next from "@/icons/next.astro";
+import Postman from "@/icons/postman.astro";
+import Jenkins from "@/icons/jenkins.astro";
+import Swagger from "@/icons/swagger.astro";
+import { skills, sections } from "@cv";
 
-const SKILLS_ICONS: Record<string, any> = {
+const SKILLS_ICONS: any = {
   HTML,
   CSS,
   JavaScript,
   TypeScript,
+  "React Native": ReactNative,
   React,
   Node,
   MySQL,
+  "SQL Server": SQL,
   Git,
   GitHub,
-  Next,
+  "Next.js": Next,
   Tailwind,
   Postman,
   Jenkins,
-  Swagger
-}
+  Swagger,
+  "C#": CSharp,
+};
 ---
 
 <Section title={sections.skills}>
   <ul>
     {
       skills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
-        const Icon = SKILLS_ICONS[iconName]
+        const Icon = SKILLS_ICONS[name];
 
         return (
           <li>
             {Icon && <Icon />} <span>{name}</span>
           </li>
-        )
+        );
       })
     }
   </ul>
