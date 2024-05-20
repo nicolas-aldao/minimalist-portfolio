@@ -1,11 +1,11 @@
 ---
-import GitHub from "@/icons/GitHub.astro"
-import Section from "../Section.astro"
+import GitHub from "@/icons/GitHub.astro";
+import Section from "../Section.astro";
 
-import { projects } from "@cv"
+import { projects, sections } from "@cv";
 ---
 
-<Section title="Personal Projects">
+<Section title={sections.personal_projects}>
   <ul>
     {
       projects.map(
@@ -15,7 +15,11 @@ import { projects } from "@cv"
               <article>
                 <header>
                   <h3>
-                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                    <a
+                      href={url}
+                      target="_blank"
+                      title={`Ver el proyecto ${name}`}
+                    >
                       {name}
                     </a>
                     {isActive && <span>•</span>}
@@ -34,13 +38,13 @@ import { projects } from "@cv"
                 </header>
                 <footer>
                   {highlights.map((highlight) => {
-                    return <span>{highlight}</span>
+                    return <span>{highlight}</span>;
                   })}
                 </footer>
               </article>
             </li>
-          )
-        }
+          );
+        },
       )
     }
   </ul>
@@ -105,7 +109,7 @@ import { projects } from "@cv"
   footer span {
     border: solid 1px #666;
     border-radius: 6px;
-    background: rgb(255, 255, 255);
+    background: #fff5c8;
     color: #444;
     font-size: 0.6rem;
     font-weight: 500;

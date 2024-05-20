@@ -18,6 +18,7 @@ interface Sections {
   work: string;
   education: string;
   skills: string;
+  personal_projects: string;
   languages: string;
 }
 

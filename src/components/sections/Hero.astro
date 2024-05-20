@@ -48,11 +48,11 @@ const SOCIAL_ICONS: SocialIcon = {
                     style={{
                       display: "inline",
                       position: "relative",
-                      bottom: "4px",
-                      paddingLeft: Icon === undefined ? "8px" : "0px",
+                      bottom: "4px", //,
+                      // paddingLeft: Icon === undefined ? "8px" : "0px",
                     }}
                   >
-                    {text}
+                    <a href={href}>{text}</a>
                   </p>
                 </div>
               </>
@@ -85,14 +85,14 @@ const SOCIAL_ICONS: SocialIcon = {
   }
 
   h2 {
-    color: #444;
+    color: #2b2b2b;
     font-weight: 500;
     font-size: 1.1rem;
     text-wrap: balance;
   }
 
   span {
-    color: #444;
+    color: #2b2b2b;
     display: flex;
     align-items: center;
     gap: 0.25rem;
@@ -101,7 +101,7 @@ const SOCIAL_ICONS: SocialIcon = {
   }
 
   footer {
-    color: #444;
+    color: #2b2b2b;
     font-size: 0.65rem;
     display: flex;
     gap: 4px;
@@ -109,20 +109,9 @@ const SOCIAL_ICONS: SocialIcon = {
   }
 
   footer a {
-    color: #555;
+    color: #2b2b2b;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
     padding: 4px;
-    height: 32px;
-    width: 32px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-  }
-
-  footer a:hover {
-    background: #eee;
-    border: 1px solid #ddd;
   }
 
   @media (width <= 700px) {

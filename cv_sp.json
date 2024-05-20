@@ -4,6 +4,7 @@
     "work": "Experiencia Laboral",
     "education": "Educación y Certificaciones",
     "skills": "Habilidades",
+    "personal_projects": "Proyectos Personales",
     "languages": "Idiomas"
   },
   "basics": {
@@ -20,7 +21,7 @@
     "profiles": [
       {
         "network": "Sitio web",
-        "href": "",
+        "href": "https://nicolas-aldao.vercel.app",
         "text": "Mi Sitio Web: nicolas-aldao.vercel.app"
       },
       {
@@ -30,12 +31,12 @@
       },
       {
         "network": "LinkedIn",
-        "href": "nicolas-aldao",
+        "href": "https://www.linkedin.com/in/nicolas-aldao",
         "text": "linkedin.com/in/nicolas-aldao"
       },
       {
         "network": "GitHub",
-        "href": "nicolas-aldao",
+        "href": "https://github.com/nicolas-aldao",
         "text": "github.com/nicolas-aldao"
       }
     ]
@@ -184,7 +185,7 @@
     {
       "name": "Técnicatura en Análisis de Sistemas",
       "institution": "Instituto Santo Tomás de Aquino",
-      "url": "https://platzi.com/p/NicolasAldao",
+      "url": "",
       "studyType": "Bachelor",
       "startDate": "2016",
       "endDate": "2020",
@@ -357,7 +358,7 @@
     {
       "name": "Digital Wallet",
       "isActive": true,
-      "description": "A digital wallet where you can send and receive money from other users. You can see your money movements too!",
+      "description": "Una billetera virtual donde podés enviar y recibir dinero de otros usuarios. También vas a poder ver tus movimientos de dinero!",
       "highlights": [
         "React",
         "Node",
@@ -370,7 +371,7 @@
     {
       "name": "Artgram",
       "isActive": true,
-      "description": "It's an app based in Instagram's style where you can browse through different art paintings. Note: You can use the demo account: user: demo pass: demo",
+      "description": "Basada en el diseño de Instagram, en este sitio web podrás ver diferentes obras de arte. Nota: Puedes usar la cuenta demo, no es necesario que te registres: usuario: demo contraseña: demo",
       "highlights": [
         "HTML",
         "CSS",
@@ -382,9 +383,9 @@
       "github": "https://github.com/nicolas-aldao/instagram-clone"
     },
     {
-      "name": "Grid Layout Concept Art: Beatles",
+      "name": "Grid Layout Temática: Beatles",
       "isActive": true,
-      "description": "This is a concept art for a grid layout. I used to The Beatles as an example.",
+      "description": "Una práctica de un curso de grid layout.",
       "highlights": [
         "HTML",
         "CSS",

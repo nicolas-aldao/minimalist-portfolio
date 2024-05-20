@@ -41,18 +41,30 @@ import { work, sections } from "@cv";
 
 <style>
   ul {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin-bottom: 62px;
     gap: 32px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  /* ul li:last-child {
+    margin-bottom: 0px;
+  } */
+
+  ul li:nth-child(5) {
+    display: none;
   }
 
   /* ul li:nth-child(5) {
     margin-top: 80px;
   } */
 
-  ul li:last-child {
+  /* ul li:last-child {
     margin-top: 50px;
-  }
+  } */
 
   article h3 {
     font-weight: 500;

@@ -4,6 +4,7 @@
     "work": "Work Experience",
     "education": "Education & Certifications",
     "skills": "Skills",
+    "personal_projects": "Personal Projects",
     "languages": "Languages"
   },
   "basics": {
@@ -20,7 +21,7 @@
     "profiles": [
       {
         "network": "Website",
-        "href": "",
+        "href": "https://nicolas-aldao.vercel.app",
         "text": "My Website: nicolas-aldao.vercel.app"
       },
       {
@@ -30,12 +31,12 @@
       },
       {
         "network": "LinkedIn",
-        "href": "nicolas-aldao",
+        "href": "https://www.linkedin.com/in/nicolas-aldao",
         "text": "linkedin.com/in/nicolas-aldao"
       },
       {
         "network": "GitHub",
-        "href": "nicolas-aldao",
+        "href": "https://github.com/nicolas-aldao",
         "text": "github.com/nicolas-aldao"
       }
     ]
@@ -184,7 +185,7 @@
     {
       "name": "System Analist Career",
       "institution": "Instituto Santo Tomás de Aquino",
-      "url": "https://platzi.com/p/NicolasAldao",
+      "url": "",
       "studyType": "Bachelor",
       "startDate": "2016",
       "endDate": "2020",
@@ -357,7 +358,7 @@
     {
       "name": "Digital Wallet",
       "isActive": true,
-      "description": "A digital wallet where you can send and receive money from other users. You can see your money movements too!",
+      "description": "An app where you can send and receive money from other users. You can see your money movements too!",
       "highlights": [
         "React",
         "Node",

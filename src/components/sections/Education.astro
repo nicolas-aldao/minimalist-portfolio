@@ -12,7 +12,7 @@ import { education, sections } from "@cv";
             <li>
               <article>
                 <header>
-                  <a href={url}>
+                  <a href={url !== "" ? url : undefined}>
                     <h3>
                       {name} - {institution}
                     </h3>
@@ -37,10 +37,17 @@ import { education, sections } from "@cv";
 
 <style>
   ul {
-    display: flex;
-    flex-direction: column;
+    display: block;
     gap: 32px;
   }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  /* ul li:last-child {
+    margin-bottom: 0px;
+  } */
 
   a {
     border-bottom: solid transparent;
