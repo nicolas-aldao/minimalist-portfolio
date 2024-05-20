@@ -48,11 +48,10 @@ const SOCIAL_ICONS: SocialIcon = {
                     style={{
                       display: "inline",
                       position: "relative",
-                      bottom: "4px", //,
-                      // paddingLeft: Icon === undefined ? "8px" : "0px",
+                      bottom: "4px",
                     }}
                   >
-                    <a href={href}>{text}</a>
+                    {network !== "Mail" ? <a href={href}>{text}</a> : text}
                   </p>
                 </div>
               </>

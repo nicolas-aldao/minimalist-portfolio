@@ -358,7 +358,7 @@
     {
       "name": "Digital Wallet",
       "isActive": true,
-      "description": "Una billetera virtual donde podés enviar y recibir dinero de otros usuarios. También vas a poder ver tus movimientos de dinero!",
+      "description": "Una billetera virtual donde podés enviar y recibir dinero de otros usuarios. También vas a poder ver el historial de tus transacciones!",
       "highlights": [
         "React",
         "Node",
@@ -371,7 +371,7 @@
     {
       "name": "Artgram",
       "isActive": true,
-      "description": "Basada en el diseño de Instagram, en este sitio web podrás ver diferentes obras de arte. Nota: Puedes usar la cuenta demo, no es necesario que te registres: usuario: demo contraseña: demo",
+      "description": "Basada en el diseño de Instagram, en este sitio web podrás ver diferentes obras de arte. Tiene sistema de likes y login con jwt",
       "highlights": [
         "HTML",
         "CSS",
@@ -385,7 +385,7 @@
     {
       "name": "Grid Layout Temática: Beatles",
       "isActive": true,
-      "description": "Una práctica de un curso de grid layout.",
+      "description": "Práctica curso de grid layout.",
       "highlights": [
         "HTML",
         "CSS",

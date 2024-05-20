@@ -358,7 +358,7 @@
     {
       "name": "Digital Wallet",
       "isActive": true,
-      "description": "An app where you can send and receive money from other users. You can see your money movements too!",
+      "description": "An app where you can send and receive money from other users. You can also view your transaction history!",
       "highlights": [
         "React",
         "Node",
@@ -371,7 +371,7 @@
     {
       "name": "Artgram",
       "isActive": true,
-      "description": "It's an app based in Instagram's style where you can browse through different art paintings. Note: You can use the demo account: user: demo pass: demo",
+      "description": "Based in Instagram's style in this app you can browse through different art paintings. You can signup, login or use the demo account.",
       "highlights": [
         "HTML",
         "CSS",
