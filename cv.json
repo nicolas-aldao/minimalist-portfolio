@@ -48,9 +48,7 @@
       "startDate": "2023",
       "endDate": "Mar 2024",
       "summary": "Fix bugs and new features development in mobile application. Create responsive UI. Deploys with Jenkins. Refactor and optimize old code.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     },
     {
       "name": "React Native Developer",
@@ -58,9 +56,7 @@
       "startDate": "Jun 2022",
       "endDate": "Dec 2022",
       "summary": "Fix bugs and new features development in mobile application. Elaborate unit tests. Fix linting errors. Styled Components",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     },
     {
       "name": "C# Developer",
@@ -68,9 +64,7 @@
       "startDate": "Jan 2021",
       "endDate": "Mar 2021",
       "summary": "Fix bugs and new features development in application MVC .NET with Razor.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     },
     {
       "name": "SQL Server and Backend Development Support",
@@ -78,9 +72,7 @@
       "startDate": "2020",
       "endDate": "2021",
       "summary": "Fix bugs in application MVC .NET with Razor. Modify and run SQL Scripts.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     },
     {
       "name": "BI Tools Support",
@@ -88,9 +80,7 @@
       "startDate": "2019",
       "endDate": "2020",
       "summary": "Modify and run Powershell Scripts. Modify and run SQL Scripts. Modify, fix and deploy SQL Data Tools (Integration Services).",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     },
     {
       "name": "Technical Support",
@@ -98,9 +88,7 @@
       "startDate": "2018",
       "endDate": "2019",
       "summary": "Control data sellout reports. Automated tasks using Excel and VBA macros. Collaborated with clients via email to resolve daily business problems.",
-      "highlights": [
-        "Started the company"
-      ]
+      "highlights": ["Started the company"]
     }
   ],
   "volunteer": [
@@ -111,9 +99,7 @@
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+      "highlights": ["Awarded 'Volunteer of the Month'"]
     }
   ],
   "education": [
@@ -126,9 +112,7 @@
       "endDate": "Apr 2024",
       "hours": "7.5",
       "description": "Test-Driven Development. Test behavior instead of implementation",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     },
     {
       "name": "Solid and Clean Code principles course",
@@ -139,9 +123,7 @@
       "endDate": "Apr 2024",
       "hours": "6.5",
       "description": "Tech Debt. Code Smells. SOLID Principles. Good practices",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     },
     {
       "name": "The complete React Native + Hooks course",
@@ -152,9 +134,7 @@
       "endDate": "Jan 2023",
       "hours": "22",
       "description": "State Management with Context. In-App Authentication. Json Web Token",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     },
     {
       "name": "React Native Intensive couse",
@@ -165,9 +145,7 @@
       "endDate": "Dec 2022",
       "hours": "4.0",
       "description": "React Intensive Training emulating a real project, building a digital wallet MVP in React to send and receive money. Consuming API's. Form validations.",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     },
     {
       "name": "React Courses (various)",
@@ -178,9 +156,7 @@
       "endDate": "Mar 2022",
       "hours": "16",
       "description": "Local Storage, Session Storage. Webpack, Babel. Lazy loading. PWA's",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     },
     {
       "name": "System Analist Career",
@@ -191,9 +167,7 @@
       "endDate": "2020",
       "hours": null,
       "description": "3-year tertiary career at an institute in Argentina. Be able to analize requirements, algoriths and computer systems. Learn and build web pages and desktop applications. Elaborate and apply good practices to relational databases",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": ["DB1101 - Basic SQL"]
     }
   ],
   "awards": [
@@ -217,29 +191,17 @@
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "TypeScript",
@@ -254,11 +216,7 @@
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente"
-      ]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
@@ -278,9 +236,7 @@
     {
       "name": "Jenkins",
       "level": "Básico",
-      "keywords": [
-        "Deploy"
-      ]
+      "keywords": ["Deploy"]
     },
     {
       "name": "Swagger",
@@ -311,22 +267,12 @@
     {
       "name": "React",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
       "name": "React Native",
       "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
@@ -342,10 +288,7 @@
   "interests": [
     {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "keywords": ["Ferrets", "Unicorns"]
     }
   ],
   "references": [
@@ -356,43 +299,34 @@
   ],
   "projects": [
     {
+      "name": "medConnect",
+      "isActive": false,
+      "description": "Healthcare mobile app, where you can book medical appointments and receive medical attention through videocalls.",
+      "highlights": [
+        "React Native",
+        "Styled Components",
+        "Moti",
+        "Node",
+        "MongoDB",
+        "Agora"
+      ],
+      "github": "https://github.com/nicolas-aldao/c18-94-m-react-native"
+    },
+    {
       "name": "Digital Wallet",
       "isActive": true,
       "description": "An app where you can send and receive money from other users. You can also view your transaction history!",
-      "highlights": [
-        "React",
-        "Node",
-        "MongooDB",
-        "NextUI"
-      ],
+      "highlights": ["React", "Node", "MongooDB", "NextUI"],
       "url": "https://digital-wallet-one.vercel.app",
       "github": "https://github.com/nicolas-aldao/digital-wallet"
     },
     {
       "name": "Artgram",
       "isActive": true,
-      "description": "Based in Instagram's style in this app you can browse through different art paintings. You can signup, login or use the demo account.",
-      "highlights": [
-        "HTML",
-        "CSS",
-        "React",
-        "Node",
-        "MongooDB"
-      ],
+      "description": "Based in Instagram's style in this app you can browse through different art paintings.",
+      "highlights": ["HTML", "CSS", "React", "Node", "MongooDB"],
       "url": "https://nagram.vercel.app",
       "github": "https://github.com/nicolas-aldao/instagram-clone"
-    },
-    {
-      "name": "Grid Layout Concept Art: Beatles",
-      "isActive": true,
-      "description": "This is a concept art for a grid layout. I used to The Beatles as an example.",
-      "highlights": [
-        "HTML",
-        "CSS",
-        "Grid Layout"
-      ],
-      "url": "https://nicolas-aldao.github.io/grid-layout-concept-art",
-      "github": "https://github.com/nicolas-aldao/grid-layout-concept-art"
     }
   ]
 }
