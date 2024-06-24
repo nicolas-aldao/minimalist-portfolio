@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "paths": {
       "@cv": [
-        "./cv.json"
+        "./cv_sp.json"
       ],
       "@/*": [
         "src/*"
