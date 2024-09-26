@@ -43,6 +43,14 @@
   },
   "work": [
     {
+      "name": "React Native Developer (varios proyectos)",
+      "position": "Upwork, Freelance | App de referidos (USA) y app del rubro fitness (Argentina).",
+      "startDate": "Jul 2024",
+      "endDate": "Actualidad",
+      "summary": "Resolver bugs, desarrollar nuevas features. Hacer optimizaciones y refactor de código antiguo. Generar apk's, testeo en IOS y Android. Configuración e implementación de diversas librerías de React Native. Estilado con TailwindCSS",
+      "highlights": ["Started the company"]
+    },
+    {
       "name": "React Developer",
       "position": "Baufest | Importante banco de Argentina",
       "startDate": "2023",
