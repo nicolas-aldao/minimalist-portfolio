@@ -13,7 +13,7 @@
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "Tuve mis primeros acercamientos hacia la programación con los videojuegos, después de haber estudiado unos años inglés, tuve la oportunidad de empezar la carrera de Analista de Sistemas la cual terminé en el 2020. En IT empecé a trabajar en una consultora argentina la cuál estuve 5 años formando parte de distintos proyectos, siendo los últimos en el área del frontend. Encuentro apasionante poder construir aplicaciones web y mobile complejas, utilizando la creatividad y la lógica, para que puedan resolver los problemas de las personas.",
+    "summary": "Tuve mis primeros acercamientos a la programación a través de los videojuegos, después de haber estudiado unos años inglés, tuve la oportunidad de empezar la carrera de Analista de Sistemas la cual terminé en el 2020. Empecé a trabajar en una consultora IT argentina la cuál estuve 5 años formando parte de distintos proyectos, actualmente me dedico a proyectos freelance para clientes en el exterior. Encuentro fascinante poder construir aplicaciones mobile complejas, utilizando la creatividad y la lógica, para dar soluciones a los problemas de las personas.",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
@@ -22,7 +22,7 @@
       {
         "network": "Sitio web",
         "href": "https://nicolas-aldao.vercel.app",
-        "text": "Mi Sitio Web: nicolas-aldao.vercel.app"
+        "text": "Sitio Web: nicolas-aldao.vercel.app"
       },
       {
         "network": "Mail",
@@ -242,14 +242,9 @@
       "keywords": []
     },
     {
-      "name": "Jenkins",
+      "name": "Tailwind",
       "level": "Básico",
       "keywords": ["Deploy"]
-    },
-    {
-      "name": "Swagger",
-      "level": "Básico",
-      "keywords": []
     },
     {
       "name": "SQL Server",

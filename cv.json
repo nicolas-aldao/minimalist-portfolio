@@ -241,14 +241,9 @@
       "keywords": []
     },
     {
-      "name": "Jenkins",
+      "name": "Tailwind",
       "level": "Básico",
       "keywords": ["Deploy"]
-    },
-    {
-      "name": "Swagger",
-      "level": "Básico",
-      "keywords": []
     },
     {
       "name": "SQL Server",
