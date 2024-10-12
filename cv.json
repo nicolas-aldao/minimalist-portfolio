@@ -47,7 +47,7 @@
       "position": "Upwork, Freelance | Refers app project (USA) and fitness app project (Argentina)",
       "startDate": "Jul 2024",
       "endDate": "Present",
-      "summary": "Bug fixing and new features development in mobile applications. Optimization and refactoring of legacy code. APK generation, testing on iOS and Android. Configuration and implementation of various React Native libraries. Styling with TailwindCSS.",
+      "summary": "Bug fixing and new features development in mobile applications. Optimization and refactoring of legacy code. APK generation, testing on iOS and Android. Configuration and implementation of various React Native libraries. Styling with TailwindCSS. State management with Redux Toolkit.",
       "highlights": ["Started the company"]
     },
     {
@@ -198,84 +198,42 @@
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
     },
     {
       "name": "Postman",
-      "level": "Básico",
-      "keywords": []
     },
     {
       "name": "Tailwind",
-      "level": "Básico",
-      "keywords": ["Deploy"]
     },
     {
       "name": "SQL Server",
-      "level": "Básico",
-      "keywords": []
     },
     {
       "name": "C#",
-      "level": "Básico",
-      "keywords": []
     },
     {
       "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
     },
     {
       "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
       "name": "React Native",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
@@ -286,12 +244,6 @@
     {
       "language": "English",
       "fluency": "B2"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
     }
   ],
   "references": [
