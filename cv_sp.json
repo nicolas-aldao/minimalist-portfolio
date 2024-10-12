@@ -197,43 +197,43 @@
   ],
   "skills": [
     {
-      "name": "HTML",
+      "name": "HTML"
     },
     {
-      "name": "CSS",
+      "name": "CSS"
     },
     {
-      "name": "JavaScript",
+      "name": "JavaScript"
     },
     {
-      "name": "TypeScript",
+      "name": "TypeScript"
     },
     {
-      "name": "Git",
+      "name": "Git"
     },
     {
-      "name": "GitHub",
+      "name": "GitHub"
     },
     {
-      "name": "Postman",
+      "name": "Postman"
     },
     {
-      "name": "Tailwind",
+      "name": "Tailwind"
     },
     {
-      "name": "SQL Server",
+      "name": "SQL Server"
     },
     {
-      "name": "C#",
+      "name": "C#"
     },
     {
-      "name": "Next.js",
+      "name": "Next.js"
     },
     {
-      "name": "React",
+      "name": "React"
     },
     {
-      "name": "React Native",
+      "name": "React Native"
     }
   ],
   "languages": [
