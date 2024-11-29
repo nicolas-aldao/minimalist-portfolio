@@ -9,11 +9,11 @@
   },
   "basics": {
     "name": "Nicolás Aldao",
-    "label": "Frontend Developer con 5 años de experiencia en el sector IT",
+    "label": "React Native | React Developer",
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "Tuve mis primeros acercamientos a la programación a través de los videojuegos, después de haber estudiado unos años inglés, tuve la oportunidad de empezar la carrera de Analista de Sistemas la cual terminé en el 2020. Empecé a trabajar en una consultora IT argentina la cuál estuve 5 años formando parte de distintos proyectos, actualmente me dedico a proyectos freelance para clientes en el exterior.",
+    "summary": "Tengo el título de Analista de Sistemas. Trabajé en una consultora IT argentina por 5 años formando parte de distintos proyectos. Actualmente me dedico a proyectos freelance para clientes en el exterior. Mi experiencia en el empleo formal me enseñó a estar familiarizado con los procesos y estándares que manejan las grandes empresas, y mi experiencia en el freelance me enseñó a poder adaptarme a entornos dinámicos, trabajando de manera autónoma, ofreciendo la disponiblidad necesaria para que el producto del cliente sea exitoso",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
@@ -43,7 +43,7 @@
   },
   "work": [
     {
-      "name": "React Native Developer (varios proyectos)",
+      "name": "React Native Developer",
       "position": "Upwork, Freelance | App de referidos (USA) y app del rubro fitness (Argentina).",
       "startDate": "Jul 2024",
       "endDate": "Actualidad",

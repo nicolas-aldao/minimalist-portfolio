@@ -9,11 +9,11 @@
   },
   "basics": {
     "name": "Nicolás Aldao",
-    "label": "Frontend Developer with 5 years of experience in IT",
+    "label": "React Native | React Developer",
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "I had my first exposure to programming through video games. After studying English for a couple of years, I had the opportunity to start a Bachelor's Degree in System Analysis, which I completed in 2020. I began my professional journey at an Argentinean IT company, where I worked for 5 years. I am currently working on freelance projects for clients abroad.",
+    "summary": "I have a Associate's Degree in Systems Analysis. I worked in an Argentine IT consulting company for 5 years as part of different projects. Currently I work on freelance projects for clients abroad. My experience in formal employment taught me to be familiar with the processes and standards managed by large companies, and my experience in freelance, taught me to be able to adapt to dynamic environments, working autonomously, offering the necessary availability for the client's product to be successful.",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
@@ -43,7 +43,7 @@
   },
   "work": [
     {
-      "name": "React Native Developer (various projects)",
+      "name": "React Native Developer",
       "position": "Upwork, Freelance | Refers app project (USA) and fitness app project (Argentina)",
       "startDate": "Jul 2024",
       "endDate": "Present",
