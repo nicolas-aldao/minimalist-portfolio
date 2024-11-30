@@ -21,9 +21,9 @@ const SOCIAL_ICONS: SocialIcon = {
   <div class="container">
     <div class="info">
       <h1>{name}</h1>
-      <h2>{label}</h2>
-      <span>
-        <WorldMap />
+      <h2 style={{ fontSize: "1.5rem"}}>{label}</h2>
+      <span style={{ fontSize: "1rem"}}>
+        <!-- <WorldMap /> -->
         {city}, {region}
       </span>
       <footer style={{ display: "block", width: "700px" }}>
@@ -39,11 +39,21 @@ const SOCIAL_ICONS: SocialIcon = {
                     display: "inline",
                   }}
                 >
-                  {Icon && (
+                  {/* {Icon && (
                     <a href={href}>
                       <Icon />
                     </a>
-                  )}
+                  )} */}
+                  <p
+                    style={{
+                      display: "inline",
+                      position: "relative",
+                      bottom: "4px",
+                      fontWeight: "600",
+                    }}
+                  >
+                    {network}:
+                  </p>
                   <p
                     style={{
                       display: "inline",

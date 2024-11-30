@@ -22,7 +22,8 @@ import { projects, sections } from "@cv";
                     >
                       {name}
                     </a>
-                    {isActive && <span>•</span>}
+                    {/* {isActive && <span>•</span>} */}
+                    -
                     {github && (
                       <a
                         class="github-code-link"
@@ -30,7 +31,8 @@ import { projects, sections } from "@cv";
                         target="_blank"
                         title={`Ver código fuente del proyecto ${name}`}
                       >
-                        <GitHub />
+                        <span style={{ fontSize: "0.9em" }}>GitHub</span>
+                        {/* <GitHub /> */}
                       </a>
                     )}
                   </h3>
@@ -38,7 +40,7 @@ import { projects, sections } from "@cv";
                 </header>
                 <footer>
                   {highlights.map((highlight) => {
-                    return <span>{highlight}</span>;
+                    return <span style={{ fontSize: "0.8rem" }}>{highlight}</span>;
                   })}
                 </footer>
               </article>
@@ -85,19 +87,19 @@ import { projects, sections } from "@cv";
   }
 
   article p {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     line-height: 1.2rem;
-    margin-bottom: 4px;
+    margin-top: 16px;
   }
 
-  article h3 span {
+  /* article h3 span {
     font-size: 20px;
     color: rgb(0, 188, 47);
     animation-name: flicker;
     animation-duration: 3s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-  }
+  } */
 
   footer {
     display: flex;
@@ -116,9 +118,9 @@ import { projects, sections } from "@cv";
     padding: 0.2rem 0.6rem;
   }
 
-  .github-code-link {
+  /* .github-code-link {
     margin-left: 5px;
-  }
+  } */
 
   @keyframes flicker {
     0% {

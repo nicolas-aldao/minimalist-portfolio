@@ -13,16 +13,16 @@
     "image": "/me.webp",
     "email": "nicolasaldao@live.com",
     "url": "https://nicolas-aldao.vercel.app/",
-    "summary": "I have a Associate's Degree in Systems Analysis. I worked in an Argentine IT consulting company for 5 years as part of different projects. Currently I work on freelance projects for clients abroad. My experience in formal employment taught me to be familiar with the processes and standards managed by large companies, and my experience in freelance, taught me to be able to adapt to dynamic environments, working autonomously, offering the necessary availability for the client's product to be successful.",
+    "summary": "I have an Associate's Degree in Systems Analysis. I worked in an Argentine IT consulting company for 5 years as part of different projects. Currently I work on freelance projects for clients abroad. My experience in formal employment taught me to be familiar with the processes and standards managed by large companies, and my experience in freelance, taught me to be able to adapt to dynamic environments, working autonomously, offering the necessary availability for the client's product to be successful.",
     "location": {
       "city": "Buenos Aires",
       "region": "Argentina"
     },
     "profiles": [
       {
-        "network": "Website",
+        "network": "My Website",
         "href": "https://nicolas-aldao.vercel.app",
-        "text": "My Website: nicolas-aldao.vercel.app"
+        "text": "nicolas-aldao.vercel.app"
       },
       {
         "network": "Mail",
@@ -167,7 +167,7 @@
       "courses": ["DB1101 - Basic SQL"]
     },
     {
-      "name": "Associate's in System Analysis",
+      "name": "Associate's Degree in System Analysis",
       "institution": "Instituto Santo Tomás de Aquino",
       "url": "",
       "studyType": "Bachelor",
