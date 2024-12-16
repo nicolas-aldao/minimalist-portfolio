@@ -38,6 +38,11 @@
         "network": "GitHub",
         "href": "https://github.com/nicolas-aldao",
         "text": "github.com/nicolas-aldao"
+      },
+      {
+        "network": "Upwork",
+        "href": "https://www.upwork.com/freelancers/~01d576cc3fe8d0e235",
+        "text": "upwork.com/freelancers/~01d576cc3fe8d0e235"
       }
     ]
   },
@@ -234,6 +239,9 @@
     },
     {
       "name": "React Native"
+    },
+    {
+      "name": "Expo"
     }
   ],
   "languages": [
@@ -254,7 +262,23 @@
   ],
   "projects": [
     {
+      "name": "Coin Vault",
+      "isMobile": true,
+      "isActive": false,
+      "description": "App Mobile de un Exchange de criptomonedas. Podés comprar, vender, y ver como va cambiando el precio de tus criptos va cambiando.",
+      "highlights": [
+        "React Native",
+        "Expo",
+        "React Reanimated",
+        "Zustand",
+        "Graphs Library"
+      ],
+      "url": "https://www.youtube.com/watch?v=InnmJxD8mCU",
+      "github": ""
+    },
+    {
       "name": "medConnect",
+      "isMobile": true,
       "isActive": false,
       "description": "Proyecto colaborativo, aplicación de telemedicina de reserva de turnos médicos donde los usuarios pueden recibir atención médica a través de videollamadas.",
       "highlights": [
@@ -270,19 +294,12 @@
     },
     {
       "name": "Digital Wallet",
+      "isMobile": false,
       "isActive": true,
       "description": "Una billetera virtual donde podés enviar y recibir dinero de otros usuarios. También vas a poder ver el historial de tus transacciones!",
       "highlights": ["React", "Node", "MongooDB", "NextUI"],
       "url": "https://digital-wallet-one.vercel.app",
       "github": "https://github.com/nicolas-aldao/digital-wallet"
-    },
-    {
-      "name": "Artgram",
-      "isActive": true,
-      "description": "Basada en el diseño de Instagram, en este sitio web podrás ver diferentes obras de arte. Tiene sistema de likes y login con jwt",
-      "highlights": ["HTML", "CSS", "React", "Node", "MongooDB"],
-      "url": "https://nagram.vercel.app",
-      "github": "https://github.com/nicolas-aldao/instagram-clone"
     }
   ]
 }

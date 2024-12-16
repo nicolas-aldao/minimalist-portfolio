@@ -26,7 +26,7 @@ const SOCIAL_ICONS: SocialIcon = {
         <!-- <WorldMap /> -->
         {city}, {region}
       </span>
-      <footer style={{ display: "block", width: "700px" }}>
+      <footer style={{ display: "block", maxWidth: "660px" }}>
         {
           profiles.map(({ network, href, text }, index) => {
             const Icon = SOCIAL_ICONS[network] ?? undefined;

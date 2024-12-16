@@ -9,22 +9,22 @@ import { projects, sections } from "@cv";
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, isActive, github, isMobile }) => {
           return (
             <li>
               <article>
                 <header>
                   <h3>
+                    {name}
+                  </h3>
                     <a
                       href={url}
                       target="_blank"
                       title={`Ver el proyecto ${name}`}
-                    >
-                      {name}
-                    </a>
+                    >{isMobile ? "Video Demo" : "Web Demo"}</a>
                     {/* {isActive && <span>•</span>} */}
-                    -
                     {github && (
+                      <span>-</span>
                       <a
                         class="github-code-link"
                         href={github}
@@ -35,7 +35,6 @@ import { projects, sections } from "@cv";
                         {/* <GitHub /> */}
                       </a>
                     )}
-                  </h3>
                   <p>{description}</p>
                 </header>
                 <footer>

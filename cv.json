@@ -38,6 +38,11 @@
         "network": "GitHub",
         "href": "https://github.com/nicolas-aldao",
         "text": "github.com/nicolas-aldao"
+      },
+      {
+        "network": "Upwork",
+        "href": "https://www.upwork.com/freelancers/~01d576cc3fe8d0e235",
+        "text": "upwork.com/freelancers/~01d576cc3fe8d0e235"
       }
     ]
   },
@@ -234,6 +239,9 @@
     },
     {
       "name": "React Native"
+    },
+    {
+      "name": "Expo"
     }
   ],
   "languages": [
@@ -254,7 +262,23 @@
   ],
   "projects": [
     {
+      "name": "Coin Vault",
+      "isMobile": true,
+      "isActive": false,
+      "description": "Cryptocurrency exchange mobile app. You can buy, sell, and see how the price of your coins changes.",
+      "highlights": [
+        "React Native",
+        "Expo",
+        "React Reanimated",
+        "Zustand",
+        "Graphs Library"
+      ],
+      "url": "https://www.youtube.com/watch?v=InnmJxD8mCU",
+      "github": ""
+    },
+    {
       "name": "medConnect",
+      "isMobile": true,
       "isActive": false,
       "description": "Healthcare mobile app, where you can book medical appointments and receive medical attention through videocalls.",
       "highlights": [
@@ -270,19 +294,12 @@
     },
     {
       "name": "Digital Wallet",
+      "isMobile": false,
       "isActive": true,
       "description": "An app where you can send and receive money from other users. You can also view your transaction history!",
       "highlights": ["React", "Node", "MongooDB", "NextUI"],
       "url": "https://digital-wallet-one.vercel.app",
       "github": "https://github.com/nicolas-aldao/digital-wallet"
-    },
-    {
-      "name": "Artgram",
-      "isActive": true,
-      "description": "Based in Instagram's style in this app you can browse through different art paintings.",
-      "highlights": ["HTML", "CSS", "React", "Node", "MongooDB"],
-      "url": "https://nagram.vercel.app",
-      "github": "https://github.com/nicolas-aldao/instagram-clone"
     }
   ]
 }
